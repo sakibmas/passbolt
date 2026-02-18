@@ -1,6 +1,4 @@
-# Prerequisites
--------------
-
+# Prerequisites  
 *   A minimal Ubuntu 24.04 server.  
 *   A domain / host name pointing to your server.
 *   A working SMTP server for email notifications.
