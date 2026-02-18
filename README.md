@@ -1,8 +1,6 @@
 Prerequisites
 -------------
 
-For this tutorial, you will need:
-
 *   A minimal Ubuntu 24.04 server.
     
 *   Passbolt Ubuntu 24.04 package installed.
