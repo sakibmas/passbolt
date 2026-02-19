@@ -39,8 +39,9 @@ apt install passbolt-ce-server
   ```
 * For database migration:
   ```
-  sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt migrate  
-
+  sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt migrate
+  ```
+  ```
   sudo -u www-data /usr/share/php/passbolt/bin/cake cache clear_all
   ```
 
