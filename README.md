@@ -33,9 +33,9 @@ apt install passbolt-ce-server
 ```
 
 # Troubleshooting
- -
+ - 
  ```
- sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt healthcheck
+   sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt healthcheck
 ```
  -
 ```
