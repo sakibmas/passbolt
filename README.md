@@ -14,7 +14,7 @@ For easier installation and update tasks Passbolt provides a package repository 
 
 **Step 1.** Download our dependencies installation script:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   curl -LO https://download.passbolt.com/ce/installer/passbolt-repo-setup.ce.sh   `
+`   curl -LO https://download.passbolt.com/ce/installer/passbolt-repo-setup.ce.sh   `
 
 **Step 2.** Download our SHA512SUM for the installation script:
 
