@@ -12,9 +12,10 @@ The recommended server requirements are:
 # Package repository setup  
 For easier installation and update tasks Passbolt provides a package repository that you need to setup before you download Passbolt CE and install it.
 
-**Step 1.** Download our dependencies installation script:
-
-`   curl -LO https://download.passbolt.com/ce/installer/passbolt-repo-setup.ce.sh   `
+**Step 1.** Download our dependencies installation script:  
+```
+curl -LO https://download.passbolt.com/ce/installer/passbolt-repo-setup.ce.sh
+```
 
 **Step 2.** Download our SHA512SUM for the installation script:
 
