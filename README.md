@@ -34,10 +34,9 @@ apt install passbolt-ce-server
 
 # Troubleshooting
 * Run the healthcheck command:
-  ```bash
+  ```
   sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt healthcheck
   ```
- - 
 * For database migration:
   ```
   sudo -u www-data /usr/share/php/passbolt/bin/cake cache clear_all
