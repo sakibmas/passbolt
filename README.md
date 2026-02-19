@@ -44,4 +44,10 @@ apt install passbolt-ce-server
   ```
   sudo -u www-data /usr/share/php/passbolt/bin/cake cache clear_all
   ```
+* Reset filesystem permissions:
+  ```
+  chown -R www-data:www-data /var/lib/passbolt/tmp/
+  chmod -R 775 $(find /var/lib/passbolt/tmp/ -type d)
+  chmod -R 664 $(find /var/lib/passbolt/tmp/ -type f)
+  ```
 
