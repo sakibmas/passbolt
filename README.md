@@ -24,7 +24,7 @@ curl -LO https://github.com/passbolt/passbolt-dep-scripts/releases/latest/downlo
 
 **Step 3.** Ensure that the script is valid and execute it:  
 ```
-sha512sum -c passbolt-ce-SHA512SUM.txt && sudo bash ./passbolt-repo-setup.ce.sh || rm -f passbolt-repo-setup.ce.sh
+sha512sum -c passbolt-ce-SHA512SUM.txt && bash ./passbolt-repo-setup.ce.sh || rm -f passbolt-repo-setup.ce.sh
 ```
 
 # Install Passbolt official Linux package
