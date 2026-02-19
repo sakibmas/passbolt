@@ -9,7 +9,7 @@ The recommended server requirements are:
 *   2GB of RAM      
 *   20GB of free disk space
 
-# Package repository setup  
+# Repository setup  
 For easier installation and update tasks, Passbolt provides a package repository that you need to set up before you download Passbolt CE and install it.
 
 **Step 1.** Download our dependencies installation script:  
@@ -27,9 +27,29 @@ curl -LO https://github.com/passbolt/passbolt-dep-scripts/releases/latest/downlo
 sha512sum -c passbolt-ce-SHA512SUM.txt && bash ./passbolt-repo-setup.ce.sh || rm -f passbolt-repo-setup.ce.sh
 ```
 
-# Install Passbolt official Linux package
+# Install
 ```
 apt install passbolt-ce-server
+```
+
+# Upgrade
+```
+apt update
+```
+```
+systemctl stop nginx
+```
+```
+apt --only-upgrade install passbolt-ce-server
+```
+```
+apt upgrade -y
+```
+```
+apt autoremove -y
+```
+```
+reboot
 ```
 
 # Troubleshooting
