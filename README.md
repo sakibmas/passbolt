@@ -33,10 +33,15 @@ apt install passbolt-ce-server
 ```
 
 # Troubleshooting
+<div style="page-break-inside: avoid; break-inside: avoid;">
+* Run the healthcheck command:
+  ```bash
+  sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt healthcheck
+</div>
  - 
  ```
    sudo -u www-data /usr/share/php/passbolt/bin/cake passbolt healthcheck
-```
+ ```
  -
 ```
 sudo -u www-data /usr/share/php/passbolt/bin/cake cache clear_all
